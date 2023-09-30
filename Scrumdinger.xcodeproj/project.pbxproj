@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A3FB9302AC871ED00CED51E /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FB92F2AC871ED00CED51E /* ScrumsView.swift */; };
 		8A4CA60D2AC7294C0002CAED /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4CA60C2AC7294C0002CAED /* Theme.swift */; };
 		8A7D45312AC774320048CD76 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D45302AC774320048CD76 /* DailyScrum.swift */; };
 		8A7D45332AC7769E0048CD76 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D45322AC7769E0048CD76 /* CardView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A3FB92F2AC871ED00CED51E /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		8A4CA60C2AC7294C0002CAED /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		8A7D45302AC774320048CD76 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		8A7D45322AC7769E0048CD76 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				8A4CA60B2AC729280002CAED /* Models */,
 				8A85EB452AC5CFE9005F8D34 /* ScrumdingerApp.swift */,
+				8A3FB92F2AC871ED00CED51E /* ScrumsView.swift */,
 				8A85EB472AC5CFE9005F8D34 /* BarProgressView.swift */,
 				8A7D45322AC7769E0048CD76 /* CardView.swift */,
 				8A85EB492AC5CFEA005F8D34 /* Assets.xcassets */,
@@ -160,6 +163,7 @@
 				8A7D45312AC774320048CD76 /* DailyScrum.swift in Sources */,
 				8A8E63002AC7F560008B1F27 /* TrailingIconLabelStyle.swift in Sources */,
 				8A4CA60D2AC7294C0002CAED /* Theme.swift in Sources */,
+				8A3FB9302AC871ED00CED51E /* ScrumsView.swift in Sources */,
 				8A85EB482AC5CFE9005F8D34 /* BarProgressView.swift in Sources */,
 				8A85EB462AC5CFE9005F8D34 /* ScrumdingerApp.swift in Sources */,
 				8A7D45332AC7769E0048CD76 /* CardView.swift in Sources */,
