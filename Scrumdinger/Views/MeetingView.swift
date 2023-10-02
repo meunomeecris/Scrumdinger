@@ -1,5 +1,5 @@
 //
-//  BarProgressView.swift
+//  MeetingView.swift
 //  Scrumdinger
 //
 //  Created by Cris Messias on 28/09/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BarProgressView: View {
+struct MeetingView: View {
     var body: some View {
         VStack{
             ProgressView(value: 5, total: 15)
@@ -44,5 +44,5 @@ struct BarProgressView: View {
 }
 
 #Preview {
-    BarProgressView()
+    MeetingView()
 }

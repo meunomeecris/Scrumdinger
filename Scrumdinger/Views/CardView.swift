@@ -26,13 +26,13 @@ struct CardView: View {
             .font(.caption)
         }
         .padding()
-//        .foregroundColor(scrum.theme.accentColor)
+        .foregroundColor(Color.black)
     }
 }
 
 #Preview {
     CardView(scrum: DailyScrum.sampleData[0])
-        .background(DailyScrum.sampleData[0].theme.mainColor)
+        .background(DailyScrum.sampleData[0].theme)
         .previewLayout(.fixed(width: 400, height: 60))
 }
 
