@@ -6,10 +6,9 @@
 //
 
 import Foundation
-import SwiftUI
 
 struct DailyScrum: Identifiable {
-    var id: UUID
+    let id: UUID
     var title: String
     var attendees: [Attendee]
     var lengthInMinutes: Int
@@ -21,9 +20,9 @@ struct DailyScrum: Identifiable {
             lengthInMinutes = Int(newValue)
         }
     }
-    var theme: Color
+    var theme: Theme
     
-    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Color) {
+    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
         self.id = id
         self.title = title
         self.attendees = attendees.map { Attendee(name: $0) }
@@ -44,7 +43,7 @@ extension DailyScrum {
     }
     
     static var emptyScrum: DailyScrum {
-        DailyScrum(title: "", attendees: [], lengthInMinutes: 5, theme: .blue)
+        DailyScrum(title: "", attendees: [], lengthInMinutes: 5, theme: .sky)
     }
 }
 
@@ -61,6 +60,6 @@ extension DailyScrum {
         DailyScrum(title: "Café Internacional",
                    attendees: ["Coline",  "Bruno", "Marie", "Anuski"],
                    lengthInMinutes: 5,
-                   theme: .mint)
+                   theme: .poppy)
     ]
 }
