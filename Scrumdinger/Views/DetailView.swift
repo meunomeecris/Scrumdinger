@@ -1,16 +1,13 @@
-//
-//  DetailView.swift
-//  Scrumdinger
-//
-//  Created by Cris Messias on 02/10/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
 struct DetailView: View {
     @Binding var scrum: DailyScrum
     @State private var editingScrum = DailyScrum.emptyScrum
-    
+
     @State private var isPresentingEditView = false
     
     var body: some View {
@@ -73,8 +70,10 @@ struct DetailView: View {
     }
 }
 
-#Preview {
-    NavigationStack {
-        DetailView(scrum: .constant(DailyScrum.sampleData[0]))
+struct DetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationStack {
+            DetailView(scrum: .constant(DailyScrum.sampleData[0]))
+        }
     }
 }

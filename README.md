@@ -1,5 +1,13 @@
-# Scrumdinger
-Apple Dev Tutoriais https://developer.apple.com/tutorials/app-dev-training
+# Managing State and Life Cycle
 
-Develop apps for iOS
-Learn the basics of Xcode, SwiftUI, and UIKit to create compelling iOS apps.
+## Starting Project
+
+Use this project to code along with [Managing State and Life Cycle](https://developer.apple.com/tutorials/app-dev-training/managing-state-and-life-cycle).
+
+## Change Log
+
+* Added a struct, `ScrumProgressViewStyle`, that conforms to `ProgressViewStyle`.
+* Added an extension to `AVPlayer` to provide a shared instance.
+* Added a `ScrumTimer` class.
+* Added sound resource file.
+

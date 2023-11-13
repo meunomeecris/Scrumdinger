@@ -1,9 +1,6 @@
-//
-//  ThemePicker.swift
-//  Scrumdinger
-//
-//  Created by Cris Messias on 10/10/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
@@ -21,6 +18,8 @@ struct ThemePicker: View {
     }
 }
 
-#Preview {
-    ThemePicker(selection: .constant(.periwinkle))
+struct ThemePicker_Previews: PreviewProvider {
+    static var previews: some View {
+        ThemePicker(selection: .constant(.periwinkle))
+    }
 }

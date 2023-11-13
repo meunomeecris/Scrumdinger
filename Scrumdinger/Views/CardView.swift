@@ -1,9 +1,6 @@
-//
-//  CardView.swift
-//  Scrumdinger
-//
-//  Created by Cris Messias on 29/09/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
@@ -30,9 +27,11 @@ struct CardView: View {
     }
 }
 
-#Preview {
-    CardView(scrum: DailyScrum.sampleData[0])
-        .background(DailyScrum.sampleData[0].theme.mainColor)
-        .previewLayout(.fixed(width: 400, height: 60))
+struct CardView_Previews: PreviewProvider {
+    static var scrum = DailyScrum.sampleData[0]
+    static var previews: some View {
+        CardView(scrum: scrum)
+            .background(scrum.theme.mainColor)
+            .previewLayout(.fixed(width: 400, height: 60))
+    }
 }
-

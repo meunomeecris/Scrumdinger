@@ -1,9 +1,6 @@
-//
-//  TrailingIconLabelStyle.swift
-//  Scrumdinger
-//
-//  Created by Cris Messias on 30/09/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 

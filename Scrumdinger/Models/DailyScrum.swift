@@ -1,9 +1,6 @@
-//
-//  DailyScrum.swift
-//  Scrumdinger
-//
-//  Created by Cris Messias on 29/09/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import Foundation
 
@@ -48,17 +45,18 @@ extension DailyScrum {
 }
 
 extension DailyScrum {
-    static let sampleData: [DailyScrum] = [
-        DailyScrum(title: "Pizzica",
-                   attendees: ["Katy",  "Vincent", "Cris", "Bea"],
+    static let sampleData: [DailyScrum] =
+    [
+        DailyScrum(title: "Design",
+                   attendees: ["Cathy", "Daisy", "Simon", "Jonathan"],
                    lengthInMinutes: 10,
                    theme: .yellow),
-        DailyScrum(title: "Cours de Français",
-                   attendees: ["Marcus",  "Durontina", "Chris", "Agustina"],
-                   lengthInMinutes: 15,
+        DailyScrum(title: "App Dev",
+                   attendees: ["Katie", "Gray", "Euna", "Luis", "Darla"],
+                   lengthInMinutes: 5,
                    theme: .orange),
-        DailyScrum(title: "Café Internacional",
-                   attendees: ["Coline",  "Bruno", "Marie", "Anuski"],
+        DailyScrum(title: "Web Dev",
+                   attendees: ["Chella", "Chris", "Christina", "Eden", "Karla", "Lindsey", "Aga", "Chad", "Jenn", "Sarah"],
                    lengthInMinutes: 5,
                    theme: .poppy)
     ]

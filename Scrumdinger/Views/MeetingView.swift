@@ -1,9 +1,6 @@
-//
-//  MeetingView.swift
-//  Scrumdinger
-//
-//  Created by Cris Messias on 28/09/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
@@ -42,6 +39,8 @@ struct MeetingView: View {
     }
 }
 
-#Preview {
-    MeetingView()
+struct MeetingView_Previews: PreviewProvider {
+    static var previews: some View {
+        MeetingView()
+    }
 }

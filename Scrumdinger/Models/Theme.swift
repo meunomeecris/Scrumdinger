@@ -1,9 +1,6 @@
-//
-//  Theme.swift
-//  Scrumdinger
-//
-//  Created by Cris Messias on 29/09/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
@@ -41,6 +38,3 @@ enum Theme: String, CaseIterable, Identifiable {
         name
     }
 }
-
-
-

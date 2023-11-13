@@ -1,9 +1,6 @@
-//
-//  ThemeView.swift
-//  Scrumdinger
-//
-//  Created by Cris Messias on 10/10/23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
@@ -20,7 +17,8 @@ struct ThemeView: View {
     }
 }
 
-
-#Preview {
-    ThemeView(theme: .buttercup)
+struct ThemeView_Previews: PreviewProvider {
+    static var previews: some View {
+        ThemeView(theme: .buttercup)
+    }
 }
